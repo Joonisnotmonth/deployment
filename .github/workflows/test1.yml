@@ -5,7 +5,7 @@ on:
     branches:
       - main
 jobs:
-  print-texr:
+  print-text:
     runs-on: ubuntu-latest
 
     steps:
