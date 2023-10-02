@@ -1,0 +1,14 @@
+name: Print Text from main.html
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  print-texr:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Print
+      run: echo "test"
