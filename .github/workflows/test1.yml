@@ -1,4 +1,4 @@
-name: Print Text from main.html
+name: Print Text from hellome.html
 
 on:
   push:
@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
 
     - name: Print
-      run: echo "test"
+      run: cat main.html
